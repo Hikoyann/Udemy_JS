@@ -4,8 +4,8 @@
 const obj = {};
 Object.defineProperty(obj, "prop", {
   configurable: true,
-  // value: 0,
-  // writable: true,
+  value: 0,
+  writable: true,
 });
 
 // obj.prop = 1;
